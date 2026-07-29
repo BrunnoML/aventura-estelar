@@ -5,7 +5,7 @@
    - Áudios e assets com hash: cache primeiro (nunca mudam).
    Ao publicar uma versão nova do sw.js, aumente o número em CACHE.
    ============================================================ */
-const CACHE = 'aventura-estelar-v2';
+const CACHE = 'aventura-estelar-v3';
 const SHELL = ['./', './index.html', './manifest.webmanifest', './icon-192.png', './icon-512.png'];
 
 self.addEventListener('install', evento => {
